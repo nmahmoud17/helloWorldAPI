@@ -1,0 +1,6 @@
+---
+applications:
+  - name: helloAPI
+    path: build/libs/gs-rest-service-0.1.0.jar
+    buildpacks:
+      - https://github.com/cloudfoundry/java-buildpack.git
